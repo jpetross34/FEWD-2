@@ -7,7 +7,7 @@
   <p id="placeholder">
   
   </p>
-  <div class="dropdown">
+  <!--<div class="dropdown">
     <button class="dropbtn">Modifier</button>
     <div class="dropdown-content">
       <a href="#">+1</a>
@@ -21,15 +21,24 @@
       <a href="#">+9</a>
       <a href="#">+10</a>
     </div>
-  </div>
-  <button id="button4">Roll D4</button>
-  <button id="button6">Roll D6</button>
-  <button id="button8">Roll D8</button>
-  <button id="button10">Roll D10</button>
-  <button id="button12">Roll D12</button>
-  <button id="button20">Roll D20</button>
-  <button id="button100">Roll D100</button>
+  </div>-->
+  <p>
+  <button data-roll="d4">D4</button>
+  <button data-roll="d6">D6</button>
+  <button data-roll="d8">D8</button>
+  <button data-roll="d10">D10</button>
+  <button data-roll="d12">D12</button>
+  <button data-roll="d20">D20</button>
+  <button data-roll="d100">D100</button>
+  </p>
+
+  <p>
+    <label for="adv-dis">
+      <input type="checkbox" id="adv-dis">
+      Use Advantage/Disadvantage
+    </label>
+  </p>
+  <div id="result" aria-live="polite"></div>
   <script src="dice.js"></script>
-  <script src="ui.js"></script>
 </body>
 </html>
