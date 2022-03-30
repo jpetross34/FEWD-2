@@ -25,6 +25,13 @@
         // Placeholder for die rolls
         var rolls;
 
+        // add or subtract modifier
+        if plus=checked()
+        if
+
+        // Modifiers
+        var modifier;
+
         //
         // Methods
         //
