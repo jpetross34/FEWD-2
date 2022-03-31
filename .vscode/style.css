@@ -66,6 +66,11 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
+.countdown-timer {
+  display:flex;
+  flex-direction: row;
+  width: 75%;
+}
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
@@ -258,7 +263,7 @@ Grocery List
 .grocery-container {
   margin-top: 2rem;
   transition: var(--transition);
-  visibility: hidden;
+  /*visibility: hidden;*/
 }
 .show-container {
   visibility: visible;
